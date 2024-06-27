@@ -257,7 +257,35 @@ body {
   margin: 5px 0;
 }
 
-.created-events li button, .participating-events li button {
+.delete-button {
+  padding: 10px 20px;
+  background-color: #b30000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.delete-button:hover {
+  background-color: #800000;
+}
+
+.edit-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.edit-button:hover {
+  background-color: #0056b3;
+}
+
+.participating-events button {
   padding: 10px 20px;
   background-color: #007bff;
   color: white;
@@ -266,6 +294,6 @@ body {
   cursor: pointer;
 }
 
-.created-events li button:hover, .participating-events li button:hover {
+.participating-events button:hover {
   background-color: #0056b3;
 }
